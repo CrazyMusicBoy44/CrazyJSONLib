@@ -8,7 +8,7 @@ public class JSONNumber implements JSONValue{
 
     @Override
     public String toString(int indent) {
-        return "    ".repeat(indent) + String.valueOf(number);
+        return "    ".repeat(indent) + number;
     }
 
     public double getNumber() {

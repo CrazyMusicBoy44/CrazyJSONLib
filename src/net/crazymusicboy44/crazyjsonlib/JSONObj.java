@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JSONObj implements JSONValue {
-    private List<JSONParam> params = new ArrayList<>();
+    private final List<JSONParam> params = new ArrayList<>();
 
     @Override
     public String toString(int indent) {
